@@ -11,7 +11,7 @@ def get_guids(feed):
     return guids
 
 def main():
-    feed_url = 'https://anchor.fm/s/1b6c6edc/podcast/rss'
+    feed_url = 'https://anchor.fm/s/rss'
     feed = get_rss_feed(feed_url)
     guids = get_guids(feed)
 
